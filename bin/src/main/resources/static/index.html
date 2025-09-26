@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Test Websocket</title>
+    <script type="module" crossorigin="anonymous" asynch>
+        import RPASocket from "/simple_web_socket.js"
+
+        RPASocket.initAll()
+    </script>
+</head>
+
+<body>
+    <noscript>
+        <h2>Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+            enabled. Please enable Javascript and reload this page!</h2>
+    </noscript>
+    <div>
+        <button id="simple-connect" class="btn btn-default" type="submit">Simple Connect</button>
+    </div>
+</body>
+
+</html>
